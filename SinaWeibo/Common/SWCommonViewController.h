@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SWCommonViewController.h
 //  SinaWeibo
 //
 //  Created by youfengzhu on 15/2/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SWCommonViewController : UIViewController
 
 @end
-
