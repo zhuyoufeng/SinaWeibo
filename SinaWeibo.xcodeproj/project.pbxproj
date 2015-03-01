@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E96CCD6FF79FB592CFD857D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E46A25AE441F62B95BEEF856 /* libPods.a */; };
 		C13626CB1AA1D77B0050ED61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626CA1AA1D77B0050ED61 /* main.m */; };
 		C13626CE1AA1D77B0050ED61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626CD1AA1D77B0050ED61 /* AppDelegate.m */; };
-		C13626D11AA1D77B0050ED61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626D01AA1D77B0050ED61 /* ViewController.m */; };
 		C13626D41AA1D77B0050ED61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13626D21AA1D77B0050ED61 /* Main.storyboard */; };
 		C13626D61AA1D77B0050ED61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13626D51AA1D77B0050ED61 /* Images.xcassets */; };
 		C13626D91AA1D77B0050ED61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13626D71AA1D77B0050ED61 /* LaunchScreen.xib */; };
 		C13626E51AA1D77C0050ED61 /* SinaWeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626E41AA1D77C0050ED61 /* SinaWeiboTests.m */; };
+		C13627001AA1E8EF0050ED61 /* button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C13626F11AA1E8EF0050ED61 /* button_background.png */; };
+		C13627011AA1E8EF0050ED61 /* button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C13626F21AA1E8EF0050ED61 /* button_background@2x.png */; };
+		C13627021AA1E8EF0050ED61 /* button_background_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = C13626F31AA1E8EF0050ED61 /* button_background_disabled.png */; };
+		C13627031AA1E8EF0050ED61 /* button_background_disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C13626F41AA1E8EF0050ED61 /* button_background_disabled@2x.png */; };
+		C13627041AA1E8EF0050ED61 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C13626F51AA1E8EF0050ED61 /* logo.png */; };
+		C13627051AA1E8EF0050ED61 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C13626F61AA1E8EF0050ED61 /* logo@2x.png */; };
+		C13627061AA1E8EF0050ED61 /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C13626F81AA1E8EF0050ED61 /* SinaWeibo.bundle */; };
+		C13627071AA1E8EF0050ED61 /* SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626FA1AA1E8EF0050ED61 /* SinaWeibo.m */; };
+		C13627081AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626FC1AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.m */; };
+		C13627091AA1E8EF0050ED61 /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626FF1AA1E8EF0050ED61 /* SinaWeiboRequest.m */; };
+		C13627101AA1EC2D0050ED61 /* SWCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C136270F1AA1EC2D0050ED61 /* SWCommonViewController.m */; };
+		C13627131AA1EC990050ED61 /* SWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13627121AA1EC990050ED61 /* SWHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +39,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EF18D3258CC65FD03DD409D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		900A930AC10CF71D63048822 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C13626C51AA1D77B0050ED61 /* SinaWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13626C91AA1D77B0050ED61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C13626CA1AA1D77B0050ED61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C13626CC1AA1D77B0050ED61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C13626CD1AA1D77B0050ED61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C13626CF1AA1D77B0050ED61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C13626D01AA1D77B0050ED61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C13626D31AA1D77B0050ED61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C13626D51AA1D77B0050ED61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C13626D81AA1D77B0050ED61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C13626DE1AA1D77C0050ED61 /* SinaWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13626E31AA1D77C0050ED61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C13626E41AA1D77C0050ED61 /* SinaWeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboTests.m; sourceTree = "<group>"; };
+		C13626F11AA1E8EF0050ED61 /* button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		C13626F21AA1E8EF0050ED61 /* button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background@2x.png"; sourceTree = "<group>"; };
+		C13626F31AA1E8EF0050ED61 /* button_background_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background_disabled.png; sourceTree = "<group>"; };
+		C13626F41AA1E8EF0050ED61 /* button_background_disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background_disabled@2x.png"; sourceTree = "<group>"; };
+		C13626F51AA1E8EF0050ED61 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C13626F61AA1E8EF0050ED61 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		C13626F81AA1E8EF0050ED61 /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		C13626F91AA1E8EF0050ED61 /* SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeibo.h; sourceTree = "<group>"; };
+		C13626FA1AA1E8EF0050ED61 /* SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeibo.m; sourceTree = "<group>"; };
+		C13626FB1AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthorizeView.h; sourceTree = "<group>"; };
+		C13626FC1AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthorizeView.m; sourceTree = "<group>"; };
+		C13626FD1AA1E8EF0050ED61 /* SinaWeiboConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboConstants.h; sourceTree = "<group>"; };
+		C13626FE1AA1E8EF0050ED61 /* SinaWeiboRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboRequest.h; sourceTree = "<group>"; };
+		C13626FF1AA1E8EF0050ED61 /* SinaWeiboRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboRequest.m; sourceTree = "<group>"; };
+		C136270E1AA1EC2D0050ED61 /* SWCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCommonViewController.h; sourceTree = "<group>"; };
+		C136270F1AA1EC2D0050ED61 /* SWCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCommonViewController.m; sourceTree = "<group>"; };
+		C13627111AA1EC990050ED61 /* SWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWHomeViewController.h; sourceTree = "<group>"; };
+		C13627121AA1EC990050ED61 /* SWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHomeViewController.m; sourceTree = "<group>"; };
+		C13627151AA1EDF60050ED61 /* SinaWeibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinaWeibo-Prefix.pch"; sourceTree = "<group>"; };
+		C13627161AA1EF060050ED61 /* CONSTANTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONSTANTS.h; sourceTree = "<group>"; };
+		E46A25AE441F62B95BEEF856 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E96CCD6FF79FB592CFD857D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5513E82FFF5C592091EDF68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E46A25AE441F62B95BEEF856 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7CECDFC38D823324214DCF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EF18D3258CC65FD03DD409D /* Pods.debug.xcconfig */,
+				900A930AC10CF71D63048822 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C13626BC1AA1D77B0050ED61 = {
 			isa = PBXGroup;
 			children = (
+				C13626EF1AA1E8EF0050ED61 /* SinaWebSDK */,
 				C13626C71AA1D77B0050ED61 /* SinaWeibo */,
 				C13626E11AA1D77C0050ED61 /* SinaWeiboTests */,
 				C13626C61AA1D77B0050ED61 /* Products */,
+				B7CECDFC38D823324214DCF4 /* Pods */,
+				5513E82FFF5C592091EDF68F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +135,15 @@
 		C13626C71AA1D77B0050ED61 /* SinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				C136270D1AA1EBF50050ED61 /* Common */,
+				C13626EE1AA1E8A90050ED61 /* Home */,
 				C13626CC1AA1D77B0050ED61 /* AppDelegate.h */,
 				C13626CD1AA1D77B0050ED61 /* AppDelegate.m */,
-				C13626CF1AA1D77B0050ED61 /* ViewController.h */,
-				C13626D01AA1D77B0050ED61 /* ViewController.m */,
 				C13626D21AA1D77B0050ED61 /* Main.storyboard */,
 				C13626D51AA1D77B0050ED61 /* Images.xcassets */,
 				C13626D71AA1D77B0050ED61 /* LaunchScreen.xib */,
 				C13626C81AA1D77B0050ED61 /* Supporting Files */,
+				C13627161AA1EF060050ED61 /* CONSTANTS.h */,
 			);
 			path = SinaWeibo;
 			sourceTree = "<group>";
@@ -98,6 +153,7 @@
 			children = (
 				C13626C91AA1D77B0050ED61 /* Info.plist */,
 				C13626CA1AA1D77B0050ED61 /* main.m */,
+				C13627151AA1EDF60050ED61 /* SinaWeibo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +175,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C13626EE1AA1E8A90050ED61 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C13627111AA1EC990050ED61 /* SWHomeViewController.h */,
+				C13627121AA1EC990050ED61 /* SWHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C13626EF1AA1E8EF0050ED61 /* SinaWebSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C13626F01AA1E8EF0050ED61 /* Resources */,
+				C13626F71AA1E8EF0050ED61 /* SinaWeibo */,
+			);
+			name = SinaWebSDK;
+			path = SinaWeibo/SinaWeb;
+			sourceTree = "<group>";
+		};
+		C13626F01AA1E8EF0050ED61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C13626F11AA1E8EF0050ED61 /* button_background.png */,
+				C13626F21AA1E8EF0050ED61 /* button_background@2x.png */,
+				C13626F31AA1E8EF0050ED61 /* button_background_disabled.png */,
+				C13626F41AA1E8EF0050ED61 /* button_background_disabled@2x.png */,
+				C13626F51AA1E8EF0050ED61 /* logo.png */,
+				C13626F61AA1E8EF0050ED61 /* logo@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C13626F71AA1E8EF0050ED61 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				C13626F81AA1E8EF0050ED61 /* SinaWeibo.bundle */,
+				C13626F91AA1E8EF0050ED61 /* SinaWeibo.h */,
+				C13626FA1AA1E8EF0050ED61 /* SinaWeibo.m */,
+				C13626FB1AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.h */,
+				C13626FC1AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.m */,
+				C13626FD1AA1E8EF0050ED61 /* SinaWeiboConstants.h */,
+				C13626FE1AA1E8EF0050ED61 /* SinaWeiboRequest.h */,
+				C13626FF1AA1E8EF0050ED61 /* SinaWeiboRequest.m */,
+			);
+			path = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		C136270D1AA1EBF50050ED61 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C136270E1AA1EC2D0050ED61 /* SWCommonViewController.h */,
+				C136270F1AA1EC2D0050ED61 /* SWCommonViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C13626E81AA1D77C0050ED61 /* Build configuration list for PBXNativeTarget "SinaWeibo" */;
 			buildPhases = (
+				49AE6CBF33477A73EACC81DB /* Check Pods Manifest.lock */,
 				C13626C11AA1D77B0050ED61 /* Sources */,
 				C13626C21AA1D77B0050ED61 /* Frameworks */,
 				C13626C31AA1D77B0050ED61 /* Resources */,
+				BBCAB4EE9E51684A2C1D9486 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +313,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13627031AA1E8EF0050ED61 /* button_background_disabled@2x.png in Resources */,
 				C13626D41AA1D77B0050ED61 /* Main.storyboard in Resources */,
 				C13626D91AA1D77B0050ED61 /* LaunchScreen.xib in Resources */,
+				C13627011AA1E8EF0050ED61 /* button_background@2x.png in Resources */,
+				C13627041AA1E8EF0050ED61 /* logo.png in Resources */,
 				C13626D61AA1D77B0050ED61 /* Images.xcassets in Resources */,
+				C13627001AA1E8EF0050ED61 /* button_background.png in Resources */,
+				C13627061AA1E8EF0050ED61 /* SinaWeibo.bundle in Resources */,
+				C13627051AA1E8EF0050ED61 /* logo@2x.png in Resources */,
+				C13627021AA1E8EF0050ED61 /* button_background_disabled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,13 +335,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49AE6CBF33477A73EACC81DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBCAB4EE9E51684A2C1D9486 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C13626C11AA1D77B0050ED61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C13626D11AA1D77B0050ED61 /* ViewController.m in Sources */,
+				C13627091AA1E8EF0050ED61 /* SinaWeiboRequest.m in Sources */,
 				C13626CE1AA1D77B0050ED61 /* AppDelegate.m in Sources */,
+				C13627131AA1EC990050ED61 /* SWHomeViewController.m in Sources */,
+				C13627071AA1E8EF0050ED61 /* SinaWeibo.m in Sources */,
+				C13627081AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.m in Sources */,
+				C13627101AA1EC2D0050ED61 /* SWCommonViewController.m in Sources */,
 				C13626CB1AA1D77B0050ED61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,8 +501,12 @@
 		};
 		C13626E91AA1D77C0050ED61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF18D3258CC65FD03DD409D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaWeibo/SinaWeibo-Prefix.pch";
 				INFOPLIST_FILE = SinaWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,8 +515,12 @@
 		};
 		C13626EA1AA1D77C0050ED61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900A930AC10CF71D63048822 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaWeibo/SinaWeibo-Prefix.pch";
 				INFOPLIST_FILE = SinaWeibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +580,7 @@
 				C13626EA1AA1D77C0050ED61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C13626EB1AA1D77C0050ED61 /* Build configuration list for PBXNativeTarget "SinaWeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +589,7 @@
 				C13626ED1AA1D77C0050ED61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
