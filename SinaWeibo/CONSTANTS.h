@@ -14,6 +14,9 @@
 #define kAppSecret                  @"82acc18595cd3247665a853d026dc729"
 #define kAppRedirectURL             @"http://open.weibo.com/apps/100276913"
 
+// API
+#define kPublicTimeline             @"https://api.weibo.com/2/statuses/public_timeline.json"
+
 // Common methods
 #define Color(r, g, b, a)           [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 #define Image(imageName)            [UIImage imageNamed:imageName]

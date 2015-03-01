@@ -26,6 +26,9 @@
 		C13627091AA1E8EF0050ED61 /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C13626FF1AA1E8EF0050ED61 /* SinaWeiboRequest.m */; };
 		C13627101AA1EC2D0050ED61 /* SWCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C136270F1AA1EC2D0050ED61 /* SWCommonViewController.m */; };
 		C13627131AA1EC990050ED61 /* SWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13627121AA1EC990050ED61 /* SWHomeViewController.m */; };
+		C1E1883E1AA3519C0035A079 /* SWNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E1883D1AA3519C0035A079 /* SWNotificationViewController.m */; };
+		C1E188431AA356D60035A079 /* SWSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E188421AA356D60035A079 /* SWSearchViewController.m */; };
+		C1E188461AA356E50035A079 /* SWUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E188451AA356E50035A079 /* SWUserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,12 @@
 		C13627121AA1EC990050ED61 /* SWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWHomeViewController.m; sourceTree = "<group>"; };
 		C13627151AA1EDF60050ED61 /* SinaWeibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinaWeibo-Prefix.pch"; sourceTree = "<group>"; };
 		C13627161AA1EF060050ED61 /* CONSTANTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONSTANTS.h; sourceTree = "<group>"; };
+		C1E1883C1AA3519C0035A079 /* SWNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWNotificationViewController.h; sourceTree = "<group>"; };
+		C1E1883D1AA3519C0035A079 /* SWNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWNotificationViewController.m; sourceTree = "<group>"; };
+		C1E188411AA356D60035A079 /* SWSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSearchViewController.h; sourceTree = "<group>"; };
+		C1E188421AA356D60035A079 /* SWSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSearchViewController.m; sourceTree = "<group>"; };
+		C1E188441AA356E50035A079 /* SWUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUserViewController.h; sourceTree = "<group>"; };
+		C1E188451AA356E50035A079 /* SWUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUserViewController.m; sourceTree = "<group>"; };
 		E46A25AE441F62B95BEEF856 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +144,9 @@
 		C13626C71AA1D77B0050ED61 /* SinaWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				C1E1883F1AA356A50035A079 /* Search */,
+				C1E188401AA356A50035A079 /* User */,
+				C1E1883B1AA3517A0035A079 /* Notification */,
 				C136270D1AA1EBF50050ED61 /* Common */,
 				C13626EE1AA1E8A90050ED61 /* Home */,
 				C13626CC1AA1D77B0050ED61 /* AppDelegate.h */,
@@ -229,6 +241,33 @@
 				C136270F1AA1EC2D0050ED61 /* SWCommonViewController.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		C1E1883B1AA3517A0035A079 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1883C1AA3519C0035A079 /* SWNotificationViewController.h */,
+				C1E1883D1AA3519C0035A079 /* SWNotificationViewController.m */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C1E1883F1AA356A50035A079 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C1E188411AA356D60035A079 /* SWSearchViewController.h */,
+				C1E188421AA356D60035A079 /* SWSearchViewController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C1E188401AA356A50035A079 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C1E188441AA356E50035A079 /* SWUserViewController.h */,
+				C1E188451AA356E50035A079 /* SWUserViewController.m */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,10 +413,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C13627091AA1E8EF0050ED61 /* SinaWeiboRequest.m in Sources */,
+				C1E1883E1AA3519C0035A079 /* SWNotificationViewController.m in Sources */,
+				C1E188431AA356D60035A079 /* SWSearchViewController.m in Sources */,
 				C13626CE1AA1D77B0050ED61 /* AppDelegate.m in Sources */,
 				C13627131AA1EC990050ED61 /* SWHomeViewController.m in Sources */,
 				C13627071AA1E8EF0050ED61 /* SinaWeibo.m in Sources */,
 				C13627081AA1E8EF0050ED61 /* SinaWeiboAuthorizeView.m in Sources */,
+				C1E188461AA356E50035A079 /* SWUserViewController.m in Sources */,
 				C13627101AA1EC2D0050ED61 /* SWCommonViewController.m in Sources */,
 				C13626CB1AA1D77B0050ED61 /* main.m in Sources */,
 			);
